@@ -44,7 +44,7 @@ public class Triangle extends Shape {
 
 	@Override
 	double getArea() {
-		double p = this.getPerimetr() /2;
+		double p = this.getPerimetr()/2;
 		return Math.sqrt(p * (p - Point.cAlculation(p1, p2)) * (p - Point.cAlculation(p2, p3))
 				* (p - Point.cAlculation(p3, p1)));
 	}
