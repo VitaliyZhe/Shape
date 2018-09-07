@@ -31,8 +31,8 @@ public class Circle extends Shape {
 
 	@Override
 	double getPerimetr() {
-		throw new UnsupportedOperationException("Not supported yet."); // To change body of generated methods, choose
-																		// Tools | Templates.
+		
+			return 2*Math.PI*Point.cAlculation(p1, p2);															
 	}
 
 	@Override
